@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bader &mdash; AI Dev Journey</title>
+    <link rel="stylesheet" href="../style/style.css" />
+</head>
+<body>
+    <div class="app-shell">
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-inner">
+                <div class="sidebar-brand">
+                    <span class="brand-initial">B</span>
+                    <div class="brand-text">
+                        <span class="brand-line">Bader</span>
+                        <span class="brand-line">AI Dev Journey</span>
+                    </div>
+                </div>
+                <nav class="sidebar-nav" aria-label="Hlavn&aacute; navig&aacute;cia">
+                    <ul>
+                        <li class="nav-item is-active">
+                            <a href="o-mne.html">
+                                <span class="nav-label">O MNE</span>
+                                <span class="nav-subtitle">Poznaj m&ocirc;j pr&iacute;beh</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#projects">
+                                <span class="nav-label">PROJEKTY</span>
+                                <span class="nav-subtitle">&Ccaron;o pr&aacute;ve staviame</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#programs">
+                                <span class="nav-label">PROGRAMY</span>
+                                <span class="nav-subtitle">N&aacute;stroje &amp; softv&eacute;r</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact">
+                                <span class="nav-label">KONTAKT</span>
+                                <span class="nav-subtitle">Spoj sa so mnou</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <section class="hero" id="top">
+                <span class="hero-label">BADER &mdash;</span>
+                <h1>AI DEV JOURNEY</h1>
+                <p>Venujem sa u&ccaron;eniu programovania s&nbsp;pomocou umelej inteligencie.</p>
+            </section>
+
+            <section class="about-section" id="about">
+                <header class="section-heading">
+                    <h2>O MNE</h2>
+                    <p>U&ccaron;&iacute;m sa p&iacute;sa&cacute; k&oacute;d z vlastnej v&ocirc;le a&nbsp;zvedavosti, krok za krokom s&nbsp;AI ako sprievodcom.</p>
+                </header>
+                <div class="about-intro">
+                    <p>
+                        Vol&aacute;m sa Tom&aacute;&scaron; Korenko, m&aacute;m 34 rokov a&nbsp;u&zcaron; od detstva ma fascinovali po&ccaron;&iacute;ta&ccaron;e,
+                        videohry, programy a&nbsp;nov&eacute; technol&oacute;gie. Aj ke&dcaron; som vyrastal bez niekoho, kto by ma viedol cestou
+                        programovania, z&aacute;ujem o&nbsp;technol&oacute;gie vo mne nikdy nezhasol.
+                    </p>
+                    <a class="btn-link" href="o-mne.html">Zisti viac</a>
+                </div>
+                <div class="feature-grid">
+                    <article class="feature-card">
+                        <div class="card-visual card-visual--typing" aria-hidden="true"></div>
+                        <div class="card-body">
+                            <h3>Efekt p&iacute;sania</h3>
+                            <p>Animuje p&iacute;sanie k&oacute;du znak po znaku.</p>
+                        </div>
+                    </article>
+                    <article class="feature-card">
+                        <div class="card-visual card-visual--rain" aria-hidden="true"></div>
+                        <div class="card-body">
+                            <h3>D&aacute;&zcaron;&dcaron; k&oacute;du</h3>
+                            <p>Zobrazuje anim&aacute;ciu zostupn&eacute;ho k&oacute;du.</p>
+                        </div>
+                    </article>
+                    <article class="feature-card">
+                        <div class="card-visual card-visual--terminal" aria-hidden="true"></div>
+                        <div class="card-body">
+                            <h3>Textov&yacute; v&yacute;stup</h3>
+                            <p>Command-line buffer pre generovan&eacute; odpovede.</p>
+                        </div>
+                    </article>
+                    <article class="feature-card">
+                        <div class="card-visual card-visual--gauge" aria-hidden="true"></div>
+                        <div class="card-body">
+                            <h3>Ukazovate&lcaron; pokroku</h3>
+                            <p>Indik&aacute;tor d&ocirc;le&zcaron;itosti a&nbsp;prior&iacute;t &uacute;loh.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="placeholder-section" id="projects" aria-hidden="true">
+                <h2>Projekty</h2>
+                <p>Obsah pripravujem.</p>
+            </section>
+
+            <section class="placeholder-section" id="programs" aria-hidden="true">
+                <h2>Programy</h2>
+                <p>Obsah pripravujem.</p>
+            </section>
+
+            <section class="placeholder-section" id="contact">
+                <h2>Kontakt</h2>
+                <p>Nap&iacute;&scaron; mi na <a href="mailto:ahoj@bader.dev">ahoj@bader.dev</a>.</p>
+            </section>
+
+            <footer class="site-footer">
+                <p>&copy; <span id="current-year"></span> Bader &mdash; AI Dev Journey.</p>
+            </footer>
+        </main>
+    </div>
+
+    <script src="../style/function/function.js" defer></script>
+</body>
+</html>
+
