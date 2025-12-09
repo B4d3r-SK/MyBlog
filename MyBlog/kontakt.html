@@ -4,17 +4,17 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projekty &mdash; Bader AI Dev Journey</title>
-    <link rel="stylesheet" href="../style/style.css" />
+    <title>Kontakt &mdash; Bader AI Dev Journey</title>
+    <link rel="stylesheet" href="style/style.css" />
 </head>
 
-<body data-page="projects">
+<body data-page="contact">
     <div class="app-shell">
         <aside class="sidebar" id="sidebar">
             <div class="sidebar-inner">
                 <div class="sidebar-brand">
                     <a class="brand-logo" href="index.html" aria-label="Domov">
-                        <img src="../assets/logo.png" alt="Bader logo" />
+                        <img src="assets/logo.png" alt="Bader logo" />
                     </a>
                 </div>
                 <nav class="sidebar-nav" aria-label="Hlavn&aacute; navig&aacute;cia">
@@ -31,7 +31,7 @@
                                 <span class="nav-subtitle">Poznaj m&ocirc;j pr&iacute;beh</span>
                             </a>
                         </li>
-                        <li class="nav-item is-active" data-page="projects">
+                        <li class="nav-item" data-page="projects">
                             <a href="projekty.html">
                                 <span class="nav-label">PROJEKTY</span>
                                 <span class="nav-subtitle">Moja tvorba</span>
@@ -43,7 +43,7 @@
                                 <span class="nav-subtitle">N&aacute;stroje &amp; softv&eacute;r</span>
                             </a>
                         </li>
-                        <li class="nav-item" data-page="contact">
+                        <li class="nav-item is-active" data-page="contact">
                             <a href="kontakt.html">
                                 <span class="nav-label">KONTAKT</span>
                                 <span class="nav-subtitle">Spoj sa so mnou</span>
@@ -56,27 +56,57 @@
 
         <main class="main-content">
             <section class="page-hero reveal">
-                <span class="page-hero-label">PROJEKTY</span>
-                <h1>Moja tvorba</h1>
-                <p>Postupne dokumentujem každý projekt, ktorý si zaslúži vlastný príbeh.</p>
-                <a class="btn-link" href="index.html">Späť na Hlavnú stránku</a>
+                <span class="page-hero-label">KONTAKT</span>
+                <h1>Spoj sa so mnou</h1>
+                <p>Ak m&aacute;&scaron; ot&aacute;zky, sp&auml;tn&uacute; v&auml;zbu alebo chuť spolupracovať,
+                    nap&iacute;&scaron; mi. Odpoviem hneď, ako to bude možn&eacute;.</p>
+                <div class="hero-actions hero-actions--stacked">
+                    <a class="btn-link" href="index.html">Späť na hlavnú stránku</a>
+                </div>
             </section>
 
-            <section class="projects-section reveal">
-                <header class="section-heading">
-                    <h2>Aktuálne projekty</h2>
-                    <p>Každý projekt beriem ako kapitolu v&nbsp;mojej ceste za kariérou vývojára.</p>
-                </header>
-                <div class="feature-grid limit-width">
-                    <a class="feature-card" href="projekty/moja-prva-stranka.html">
-                        <div class="card-visual card-visual--typing" aria-hidden="true"></div>
-                        <div class="card-body">
-                            <h3>Moja prv&aacute; str&aacute;nka</h3>
-                            <p>M&ocirc;j prv&yacute; blog.</p>
-                            <span class="btn-link">Zisti viac</span>
+            <section class="project-content reveal">
+                <article class="content-card">
+                    <h2>Preferované kanály</h2>
+                    <div class="contact-grid">
+                        <div class="contact-card">
+                            <h3>Email</h3>
+                            <p>Ide&aacute;lny na detailnej&scaron;ie spr&aacute;vy, podrobnosti o projektoch alebo
+                                spolupr&aacute;cu.</p>
+                            <div class="contact-actions">
+                                <a class="btn-link" href="mailto:korenkotomi@gmail.com">korenkotomi@gmail.com</a>
+                                <button class="btn-link btn-link--ghost contact-copy-btn" type="button"
+                                    data-copy="korenkotomi@gmail.com">Skop&iacute;rovať adresu</button>
+                            </div>
                         </div>
-                    </a>
-                </div>
+                        <div class="contact-card">
+                            <h3>LinkedIn</h3>
+                            <p>Profesion&aacute;lne spojenie, zdieľanie kari&eacute;rnych noviniek a technick&yacute;ch
+                                &ccaron;l&aacute;nkov.</p>
+                            <a class="btn-link" href="https://www.linkedin.com" target="_blank" rel="noreferrer">Profil
+                                LinkedIn</a>
+                        </div>
+                        <div class="contact-card">
+                            <h3>GitHub</h3>
+                            <p>Pozri si moje projekty, otvor bug, o ktor&yacute; sa chce&scaron; podeliť, alebo
+                                po&scaron;li pull request.</p>
+                            <a class="btn-link" href="https://github.com" target="_blank"
+                                rel="noreferrer">&Uacute;&ccaron;et GitHub</a>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="project-content reveal">
+                <article class="content-card">
+                    <h2>Odozva</h2>
+                    <p>
+                        Ak ti moja cesta pomohla alebo m&aacute;&scaron; n&aacute;pad, &ccaron;o by si r&aacute;d na
+                        blogu videl, daj mi vedieť. Každ&aacute; spr&aacute;va
+                        ma pos&uacute;va ďalej a pom&aacute;ha lep&scaron;ie pochopiť, &ccaron;o je pre komunitu
+                        u&zcaron;itočn&eacute;.
+                    </p>
+                </article>
             </section>
 
             <footer class="site-footer reveal">
@@ -89,12 +119,12 @@
                         </svg>
                     </a>
                 </div>
-                <p>&copy; <span id="current-year"></span> Bader &mdash; AI Dev Journey.</p>
+                <p>&copy; <span id="current-year"></span> Bader — AI Dev Journey.</p>
             </footer>
         </main>
     </div>
 
-    <script src="../style/function/function.js" defer></script>
+    <script src="style/function/function.js" defer></script>
 </body>
 
 </html>
